@@ -1,61 +1,48 @@
-# 🎓 Student Performance Predictor
+Student Performance Predictor
 
-A machine learning web application that predicts a student's final academic score based on academic and lifestyle factors.
+📌 Project Overview
 
-## 📌 Project Overview
+The Student Performance Predictor is a machine learning project that predicts student performance based on academic and personal factors.
 
-This project uses Machine Learning to estimate a student's final score using:
+🎯 Objective
 
-- Study Hours
-- Attendance
-- Previous Exam Score
-- Assignment Score
-- Sleep Hours
+The main objective of this project is to use machine learning to analyze student-related data and predict their expected academic performance.
 
-The application provides an estimated final score and categorizes the student's performance.
-
-## 🤖 Machine Learning Model
-
-Algorithm used:
-
-- Linear Regression
-
-## 📊 Model Evaluation
-
-The model is evaluated using:
-
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- R² Score
-
-## 🛠️ Technologies Used
+🛠️ Technologies Used
 
 - Python
 - Pandas
 - NumPy
-- Matplotlib
-- Seaborn
 - Scikit-learn
-- Streamlit
+- Matplotlib
+- Machine Learning
 
-## ✨ Features
+📊 Project Features
 
-- Interactive student input
-- Academic performance prediction
-- Performance classification
-- Data analysis
-- Data visualization
-- Machine Learning model
-- Interactive web interface
+- Loads and processes student data
+- Performs data preprocessing
+- Trains a machine learning model
+- Takes student information as input
+- Predicts student performance
+- Displays the prediction
 
-## 🚀 How to Run
+▶️ How to Run
 
-Clone the repository:
+1. Install Python.
+2. Open the project folder in VS Code.
+3. Install the required libraries:
 
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+pip install pandas numpy scikit-learn matplotlib
 
-## Author
+4. Run the Python program:
+
+python student_performance_predictor.py
+
+👨‍💻 Author
 
 Khushaal Sai Guntreddi
+Reg No: 26AI3011
+
+📚 Project Purpose
+
+This project was created as a learning project to understand Python, data preprocessing, machine learning, and model prediction.
